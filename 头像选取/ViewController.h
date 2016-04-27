@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UzysAssetsPickerController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UzysAssetsPickerControllerDelegate>
 
 
 @end

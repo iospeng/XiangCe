@@ -15,6 +15,19 @@
 		1CD39CD61CD08BBB004ABD8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD39CD41CD08BBB004ABD8E /* LaunchScreen.storyboard */; };
 		1CD39CE11CD08BBB004ABD8E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39CE01CD08BBB004ABD8E /* ____Tests.m */; };
 		1CD39CEC1CD08BBB004ABD8E /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39CEB1CD08BBB004ABD8E /* ____UITests.m */; };
+		1CD39D091CD08CF2004ABD8E /* UIImage+UzysExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39CFB1CD08CF2004ABD8E /* UIImage+UzysExtension.m */; };
+		1CD39D0A1CD08CF2004ABD8E /* UzysAppearanceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39CFD1CD08CF2004ABD8E /* UzysAppearanceConfig.m */; };
+		1CD39D0B1CD08CF2004ABD8E /* UzysAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39CFF1CD08CF2004ABD8E /* UzysAssetsPickerController.m */; };
+		1CD39D0C1CD08CF2004ABD8E /* UzysAssetsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39D021CD08CF2004ABD8E /* UzysAssetsViewCell.m */; };
+		1CD39D0D1CD08CF2004ABD8E /* UzysGroupPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39D041CD08CF2004ABD8E /* UzysGroupPickerView.m */; };
+		1CD39D0E1CD08CF2004ABD8E /* UzysGroupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39D061CD08CF2004ABD8E /* UzysGroupViewCell.m */; };
+		1CD39D0F1CD08CF2004ABD8E /* UzysWrapperPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39D081CD08CF2004ABD8E /* UzysWrapperPickerController.m */; };
+		1CD39D131CD093BF004ABD8E /* UzysAssetPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1CD39D111CD093BF004ABD8E /* UzysAssetPickerController.bundle */; };
+		1CD39D141CD093BF004ABD8E /* UzysAssetsPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD39D121CD093BF004ABD8E /* UzysAssetsPickerController.xib */; };
+		1CD39D191CD093DC004ABD8E /* UzysAssetsPickerController.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1CD39D161CD093DC004ABD8E /* UzysAssetsPickerController.xcconfig */; };
+		1CD39D1A1CD093DC004ABD8E /* UzysAssetsPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39D171CD093DC004ABD8E /* UzysAssetsPickerController-dummy.m */; };
+		1CD39D1D1CD099C8004ABD8E /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD39D1C1CD099C8004ABD8E /* MYViewController.m */; };
+		1CD39D1F1CD0A159004ABD8E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CD39D1E1CD0A159004ABD8E /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,29 @@
 		1CD39CE71CD08BBB004ABD8E /* 头像选取UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "头像选取UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD39CEB1CD08BBB004ABD8E /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		1CD39CED1CD08BBB004ABD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD39CFA1CD08CF2004ABD8E /* UIImage+UzysExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UzysExtension.h"; sourceTree = "<group>"; };
+		1CD39CFB1CD08CF2004ABD8E /* UIImage+UzysExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UzysExtension.m"; sourceTree = "<group>"; };
+		1CD39CFC1CD08CF2004ABD8E /* UzysAppearanceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysAppearanceConfig.h; sourceTree = "<group>"; };
+		1CD39CFD1CD08CF2004ABD8E /* UzysAppearanceConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysAppearanceConfig.m; sourceTree = "<group>"; };
+		1CD39CFE1CD08CF2004ABD8E /* UzysAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysAssetsPickerController.h; sourceTree = "<group>"; };
+		1CD39CFF1CD08CF2004ABD8E /* UzysAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysAssetsPickerController.m; sourceTree = "<group>"; };
+		1CD39D001CD08CF2004ABD8E /* UzysAssetsPickerController_Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysAssetsPickerController_Configuration.h; sourceTree = "<group>"; };
+		1CD39D011CD08CF2004ABD8E /* UzysAssetsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysAssetsViewCell.h; sourceTree = "<group>"; };
+		1CD39D021CD08CF2004ABD8E /* UzysAssetsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysAssetsViewCell.m; sourceTree = "<group>"; };
+		1CD39D031CD08CF2004ABD8E /* UzysGroupPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysGroupPickerView.h; sourceTree = "<group>"; };
+		1CD39D041CD08CF2004ABD8E /* UzysGroupPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysGroupPickerView.m; sourceTree = "<group>"; };
+		1CD39D051CD08CF2004ABD8E /* UzysGroupViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysGroupViewCell.h; sourceTree = "<group>"; };
+		1CD39D061CD08CF2004ABD8E /* UzysGroupViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysGroupViewCell.m; sourceTree = "<group>"; };
+		1CD39D071CD08CF2004ABD8E /* UzysWrapperPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysWrapperPickerController.h; sourceTree = "<group>"; };
+		1CD39D081CD08CF2004ABD8E /* UzysWrapperPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysWrapperPickerController.m; sourceTree = "<group>"; };
+		1CD39D111CD093BF004ABD8E /* UzysAssetPickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UzysAssetPickerController.bundle; sourceTree = "<group>"; };
+		1CD39D121CD093BF004ABD8E /* UzysAssetsPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UzysAssetsPickerController.xib; sourceTree = "<group>"; };
+		1CD39D161CD093DC004ABD8E /* UzysAssetsPickerController.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UzysAssetsPickerController.xcconfig; sourceTree = "<group>"; };
+		1CD39D171CD093DC004ABD8E /* UzysAssetsPickerController-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UzysAssetsPickerController-dummy.m"; sourceTree = "<group>"; };
+		1CD39D181CD093DC004ABD8E /* UzysAssetsPickerController-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UzysAssetsPickerController-prefix.pch"; sourceTree = "<group>"; };
+		1CD39D1B1CD099C8004ABD8E /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		1CD39D1C1CD099C8004ABD8E /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		1CD39D1E1CD0A159004ABD8E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +137,16 @@
 		1CD39CC51CD08BBB004ABD8E /* 头像选取 */ = {
 			isa = PBXGroup;
 			children = (
+				1CD39D1E1CD0A159004ABD8E /* 1.jpg */,
+				1CD39D151CD093C5004ABD8E /* Support Files */,
+				1CD39D101CD093AE004ABD8E /* Resources */,
+				1CD39CF91CD08CD6004ABD8E /* UzysAssetSPickercontroller */,
 				1CD39CC91CD08BBB004ABD8E /* AppDelegate.h */,
 				1CD39CCA1CD08BBB004ABD8E /* AppDelegate.m */,
 				1CD39CCC1CD08BBB004ABD8E /* ViewController.h */,
 				1CD39CCD1CD08BBB004ABD8E /* ViewController.m */,
+				1CD39D1B1CD099C8004ABD8E /* MYViewController.h */,
+				1CD39D1C1CD099C8004ABD8E /* MYViewController.m */,
 				1CD39CCF1CD08BBB004ABD8E /* Main.storyboard */,
 				1CD39CD21CD08BBB004ABD8E /* Assets.xcassets */,
 				1CD39CD41CD08BBB004ABD8E /* LaunchScreen.storyboard */,
@@ -138,6 +180,47 @@
 				1CD39CED1CD08BBB004ABD8E /* Info.plist */,
 			);
 			path = "头像选取UITests";
+			sourceTree = "<group>";
+		};
+		1CD39CF91CD08CD6004ABD8E /* UzysAssetSPickercontroller */ = {
+			isa = PBXGroup;
+			children = (
+				1CD39CFA1CD08CF2004ABD8E /* UIImage+UzysExtension.h */,
+				1CD39CFB1CD08CF2004ABD8E /* UIImage+UzysExtension.m */,
+				1CD39CFC1CD08CF2004ABD8E /* UzysAppearanceConfig.h */,
+				1CD39CFD1CD08CF2004ABD8E /* UzysAppearanceConfig.m */,
+				1CD39CFE1CD08CF2004ABD8E /* UzysAssetsPickerController.h */,
+				1CD39CFF1CD08CF2004ABD8E /* UzysAssetsPickerController.m */,
+				1CD39D001CD08CF2004ABD8E /* UzysAssetsPickerController_Configuration.h */,
+				1CD39D011CD08CF2004ABD8E /* UzysAssetsViewCell.h */,
+				1CD39D021CD08CF2004ABD8E /* UzysAssetsViewCell.m */,
+				1CD39D031CD08CF2004ABD8E /* UzysGroupPickerView.h */,
+				1CD39D041CD08CF2004ABD8E /* UzysGroupPickerView.m */,
+				1CD39D051CD08CF2004ABD8E /* UzysGroupViewCell.h */,
+				1CD39D061CD08CF2004ABD8E /* UzysGroupViewCell.m */,
+				1CD39D071CD08CF2004ABD8E /* UzysWrapperPickerController.h */,
+				1CD39D081CD08CF2004ABD8E /* UzysWrapperPickerController.m */,
+			);
+			name = UzysAssetSPickercontroller;
+			sourceTree = "<group>";
+		};
+		1CD39D101CD093AE004ABD8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1CD39D111CD093BF004ABD8E /* UzysAssetPickerController.bundle */,
+				1CD39D121CD093BF004ABD8E /* UzysAssetsPickerController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1CD39D151CD093C5004ABD8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CD39D161CD093DC004ABD8E /* UzysAssetsPickerController.xcconfig */,
+				1CD39D171CD093DC004ABD8E /* UzysAssetsPickerController-dummy.m */,
+				1CD39D181CD093DC004ABD8E /* UzysAssetsPickerController-prefix.pch */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +329,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD39D191CD093DC004ABD8E /* UzysAssetsPickerController.xcconfig in Resources */,
 				1CD39CD61CD08BBB004ABD8E /* LaunchScreen.storyboard in Resources */,
 				1CD39CD31CD08BBB004ABD8E /* Assets.xcassets in Resources */,
+				1CD39D141CD093BF004ABD8E /* UzysAssetsPickerController.xib in Resources */,
+				1CD39D1F1CD0A159004ABD8E /* 1.jpg in Resources */,
+				1CD39D131CD093BF004ABD8E /* UzysAssetPickerController.bundle in Resources */,
 				1CD39CD11CD08BBB004ABD8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +361,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD39CCE1CD08BBB004ABD8E /* ViewController.m in Sources */,
+				1CD39D0D1CD08CF2004ABD8E /* UzysGroupPickerView.m in Sources */,
+				1CD39D0F1CD08CF2004ABD8E /* UzysWrapperPickerController.m in Sources */,
+				1CD39D0B1CD08CF2004ABD8E /* UzysAssetsPickerController.m in Sources */,
 				1CD39CCB1CD08BBB004ABD8E /* AppDelegate.m in Sources */,
+				1CD39D0A1CD08CF2004ABD8E /* UzysAppearanceConfig.m in Sources */,
+				1CD39D1D1CD099C8004ABD8E /* MYViewController.m in Sources */,
+				1CD39D0E1CD08CF2004ABD8E /* UzysGroupViewCell.m in Sources */,
+				1CD39D0C1CD08CF2004ABD8E /* UzysAssetsViewCell.m in Sources */,
+				1CD39D1A1CD093DC004ABD8E /* UzysAssetsPickerController-dummy.m in Sources */,
+				1CD39D091CD08CF2004ABD8E /* UIImage+UzysExtension.m in Sources */,
 				1CD39CC81CD08BBB004ABD8E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
